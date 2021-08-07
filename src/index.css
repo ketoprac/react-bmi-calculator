@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
+
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +8,7 @@
 }
 
 .App {
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,6 +34,7 @@ button {
   background: none;
   margin-top: 32px;
   margin-bottom: 32px;
+  font-family: "Poppins", sans-serif;
 }
 
 input {
@@ -51,7 +53,7 @@ input:focus {
 }
 
 button {
-  background-image: linear-gradient(to right, #f58634, #ffcc29, #00af91);
+  background-image: linear-gradient(to left, #f58634, #ffcc29, #00af91);
   background-size: 200%;
   background-position: 0%;
   padding: 15px;
@@ -70,6 +72,7 @@ form {
   padding: 5px;
   background-color: white;
   z-index: 1;
+  border-radius: 12px;
   background-image: linear-gradient(
     to bottom right,
     #61b15a,
@@ -80,6 +83,7 @@ form {
 }
 
 .form-group {
+  border-radius: 12px;
   text-align: center;
   background-color: #fff;
   padding: 45px 30px;

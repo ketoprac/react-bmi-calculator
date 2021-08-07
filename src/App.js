@@ -43,7 +43,7 @@ function App() {
             placeholder="Weight (KG)"
             onChange={(e) => setWeight(e.target.value)}
           />
-          <button onClick={calculateBmi}>CALCULATE</button>
+          <button onClick={calculateBmi}>Calculate</button>
           <div className="result">
             <p className={className}>{message}</p>
           </div>
